@@ -1,0 +1,8 @@
+/outputs/*
+!/outputs/.gitkeep
+/data/raw/*
+/data/processed/*
+*.tmp
+*.log
+.ipynb_checkpoints/
+.DS_Store
