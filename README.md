@@ -1,75 +1,66 @@
-# 🍫 Chocolate Bar Analysis
+# 🔫 Gun Violence Analysis
 
 ## 📌 Project Summary
-This project analyzes the **Chocolate Bar Ratings dataset** from Kaggle, featuring expert evaluations of over **1,700 plain dark chocolate bars**.  
-The ratings focus on **cacao flavor and tasting experience** (flavor, texture, aftermelt, overall impression) rather than health or ethical aspects.  
+This repository explores patterns and trends in **gun violence data in the United States**.  
+The analysis focuses on understanding the scale of incidents, geographic distribution, and underlying factors through exploratory data analysis, regression, clustering, and time series methods.  
 
-The dataset provides insights into chocolate quality worldwide by examining **manufacturers, bean origins, cocoa percentages, and ratings**.
-
----
-
-## 📊 Key Attributes
-- **Company** – Brand or producer (416 producers)  
-- **Bar Name** – Chocolate variety or bean origin (1,039 variations)  
-- **REF** – Unique identifier for each bar  
-- **ReviewDate** – Year of evaluation  
-- **CocoaPercent** – Cocoa content percentage  
-- **Location** – Country of manufacturer (60 countries)  
-- **Rating** – Score from **1.0 to 5.0** (taste-based)  
-- **BeanType** – Cocoa bean type or blend (41 listed, many missing)  
-- **BroadOrigin** – Country of bean source (100 origins)  
-
----
-
-## ❓ Key Questions
-- What is the **average chocolate rating by country**?  
-- Which countries produce the **top 5 cocoa beans**?  
-- Which countries host the **top 5 chocolate manufacturers**?  
-- What’s the **relationship between rating and cocoa percentage**?  
+The dataset includes details about gun-related incidents such as **location, date, casualties, and context**, enabling both descriptive and predictive insights.
 
 ---
 
 ## 📂 Repository Contents
 - **Datasets**  
-  - `Chocolate_Bar_ratings.csv` – Original dataset  
-  - `Cleaned_ChocolateBarRating.csv` – Cleaned dataset  
-  - `world.countries.json` – GeoJSON for mapping  
+  - Incident-level gun violence data  
+  - Supporting geospatial data (`world.countries.json`)  
 
 - **Notebooks**  
-  - Data sourcing & preprocessing  
-  - Exploratory Data Analysis (EDA)  
-  - Geospatial visualizations  
+  - `6.1-Sourcing Open Data.ipynb` – Data acquisition and preparation  
+  - `Alexandru_Exploration6.2.ipynb` – Initial data exploration  
+  - `6.3-Alexandru_gun_violence.ipynb` – In-depth exploratory analysis  
+  - `6.4_GunViolence_Regression_Analysis.ipynb` – Regression modeling  
+  - `gunviolence_kmeans.ipynb` – Clustering analysis  
+  - `6.6_Time Series Analysis.ipynb` – Time series forecasting  
+
+---
+
+## ❓ Key Questions
+- What are the **temporal trends** in gun violence incidents?  
+- Which **states/regions** are most affected?  
+- How do **casualty counts** vary across incidents?  
+- Can regression or clustering models explain patterns in the data?  
+- What predictions can be made about **future incidents**?  
 
 ---
 
 ## 📑 Data Source
-- **Creator**: Brady Brelinski (Manhattan Chocolate Society)  
-- **Host**: Kaggle – [Chocolate Bar Ratings Dataset](https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings)  
-- **Type**: Community-driven, expert tasting reviews  
-- **Credibility**: Expert but **subjective**, not industry-official  
+- **Type**: Public dataset of U.S. gun violence incidents  
+- **Ownership**: Independent, open-source data aggregators  
+- **Credibility**: Widely used for research and policy discussions  
+- **Note**: The dataset reflects reported incidents and may not capture all events.  
 
 ---
 
 ## ⚠️ Data Limitations
-- **Reuse rights**: Intended for research/learning, not commercial use  
-- **Incomplete bean type details**: ~50% missing  
-- **Sampling bias**: Reflects chocolate enthusiasts’ tastes, not general consumers  
-- **Outdated coverage**: Reviews stop at 2017  
+- **Reporting bias**: Data depends on media and law enforcement reports  
+- **Granularity**: Some contextual variables may be incomplete  
+- **Coverage**: Focused on U.S. incidents; may not reflect global patterns  
 
 ---
 
 ## 🧭 Ethical Considerations
-- **Privacy**: No personal identifiers, minimal risks  
-- **Representation**: Biased toward enthusiast community  
-- **Transparency**: Ratings are subjective, interpret with caution  
+- **Privacy**: Dataset excludes personal identifiers, reducing risk  
+- **Sensitivity**: Gun violence is a critical and sensitive social issue; results must be communicated responsibly  
+- **Policy implications**: Analyses should be interpreted cautiously to avoid misrepresentation  
 
 ---
 
 ## 🚀 Purpose
-This project demonstrates practical skills in:  
-- Data wrangling and cleaning  
+This project demonstrates practical applications of:  
+- Data wrangling and preprocessing  
 - Exploratory Data Analysis (EDA)  
-- Geospatial and statistical visualization  
-- Data storytelling and interpretation  
+- Regression modeling  
+- Clustering with K-Means  
+- Time series forecasting  
+- Data storytelling through notebooks and visualizations  
 
-The goal is to showcase **data analysis techniques** and present **insights into global chocolate trends**.
+The goal is to extract **insights into U.S. gun violence patterns** and practice advanced **data science techniques**.
