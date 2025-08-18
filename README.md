@@ -5,7 +5,7 @@ This repository explores patterns and trends in **gun violence data in the Unite
 The analysis focuses on understanding the scale of incidents, geographic distribution, and underlying factors through exploratory data analysis, regression, clustering, and time series methods.  
 
 The dataset includes details about gun-related incidents such as **location, date, casualties, and context**, enabling both descriptive and predictive insights.
-
+Title: Gun Violence Analysis — From Raw Incidents to Actionable Insights
 ---
 
 ## 📂 Repository Contents
@@ -64,3 +64,12 @@ This project demonstrates practical applications of:
 - Data storytelling through notebooks and visualizations  
 
 The goal is to extract **insights into U.S. gun violence patterns** and practice advanced **data science techniques**.
+
+## Contact
+**Alexandru Cojocari**  
+- GitHub: [DatadrivenAlex](https://github.com/DatadrivenAlex)  
+- LinkedIn: [Alexandru Cojocari](https://www.linkedin.com/in/alexandru-cojocari-35450a354/)  
+- Email: datadrivenalex@gmail.com  
+- Mobile: +49 0176 30562777  
+- Tableau: [Public Profile](https://public.tableau.com/app/profile/alexandru.cojocari2059/vizzes)
+
